@@ -20,4 +20,3 @@ export const timeline = [
         content:`you can put link like <a>this</a> by using tag a with src`
     },
 ]
-
