@@ -6,5 +6,9 @@ export const timeline = [
     {
         year:"2022-2023",
         data:"test2"
+    },
+    {
+        year:"2022-2023",
+        data:"akara test, how to put link here?"
     }
 ]
