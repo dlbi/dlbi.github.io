@@ -2,20 +2,20 @@ import { timeline } from "../data/data.js";
 
 const display = document.getElementById("displaytimeline");
 
-export default function DisplayTimeline(){
-    let displayData = timeline.map((object) =>{
+export default function DisplayTimeline() {
+    let displayData = timeline.map((object) => {
         const year = object.year;
-        const data = object.data;
-        console.log(year,data)
-        
+        let content = object.content;
+
+        content = content.replace(/<a\b[^>]*>(.*?)<\/a>/g, '<a href="/test" style="color: blue; text-decoration: underline;">$1</a>');
+
         return `
-        <div class="color-red-500">
-            <p>year: ${year}</p>
-            <p>data: ${data}</p>
+        <div class="">
+            <h5>year: ${year}</h5>
+            <p>${content}</p>
         </div>
-        `
+        `;
     }).join("");
 
     display.innerHTML = displayData;
-
 }
