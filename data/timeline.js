@@ -1,5 +1,3 @@
-import { linkClass } from "../config/class.js"
-
 export const timeline = [
     {
         year:"2024",
