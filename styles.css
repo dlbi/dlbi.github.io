@@ -1,0 +1,18 @@
+.timespace {
+    color: #bbb
+}
+
+.line {
+    border-color: #bbb;
+}
+
+.timelinedot {
+    position: relative;
+    border: 2px solid;
+    border-color: #fff;
+    width: 15px;
+    height: 15px;;
+    background-color: #bbb;
+    border-radius: 50%;
+    right: -8px;
+}
