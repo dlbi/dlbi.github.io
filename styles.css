@@ -1,5 +1,8 @@
+body { overflow-x:hidden; }
+
 .timespace {
-    color: #bbb
+    color: #bbb;
+    font-weight: Light;
 }
 
 .line {
@@ -15,4 +18,22 @@
     background-color: #bbb;
     border-radius: 50%;
     right: -8px;
+}
+
+hr {
+    margin: 14px auto;
+    width: 60%;
+    color: #bbb;
+}
+
+#project{
+ background-color: #eee;
+}
+
+#pubItems:hover{
+    background-color:#eee;
+}
+
+#projectItems:hover{
+    transform: scale(1.1);
 }

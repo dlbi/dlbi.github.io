@@ -12,15 +12,15 @@ export default function DisplayTimeline() {
 
         return `
         <div class="flex text-start h-auto">
-            <div class="line flex justify-end w-1/5 h-max border-r-2"> 
+            <div class="line flex justify-end w-1/4 h-max border-r-2"> 
                 <p class="timespace text-xs text-right md:text-base">${year}</p>
                 <div class="timelinedot"></div>
             </div>
             <div class="w-auto px-2 pb-1">
-                <img src=${img} style="max-width:80px;border-radius:10px"></img>
+                <img src=${img} class="w-10 md:w-16" style="border-radius:10px"></img>
             </div>
             <div class="w-3/6 pb-2">
-                <p class="text-sm break-all md:text-lg">${content}</p>
+                <p class="text-md break-all md:text-xl">${content}</p>
             </div>
                
         </div>

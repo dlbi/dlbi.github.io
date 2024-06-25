@@ -2,21 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" , initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <header-component></header-component>
-    <section id="timeline" class="flex justify-center w-screen items-center">
-        <div id="displaytimeline" class="w-full lg:w-1/2 p-4 lg:p-0">
+<body class="w-sc">
+    <section id="header" class="my-10">
+        <div class="flex flex-col items-center lg:flex-row justify-center ">
+            <div class = "w-40 lg:w-48">
+                <img class="rounded-full" src="https://www.ict.mahidol.ac.th/thai/wp-content/uploads/2021/05/Akara-Supratak.png"/>
+            </div>
+            <div class="flex flex-col items-center lg:items-start">
+                <h1 class="text-2xl" style="font-weight: bold;">Akara Supratak</h1>
+                <h5 class="text-lg" style="color:#bbb; font-style: italic;">Hi! every one</h5>
+            </div>
+            
+        </div>
+    </section>
+    <hr>
+    <section id="timeline" class="flex justify-center w-screen items-center mb-4">
+        <div id="displaytimeline" class="w-full lg:w-screen p-4 lg:p-0">
         </div>
     </section>
 
+    <section id="project" class="flex flex-col w-screen items-center justify-center pb-8">
+        <div class="w-3/5 my-4">
+            <h2 class="text-2xl ">Projects</h2>
+        </div>
+        <div class="flex w-screen items-center justify-center">
+            <div id="displayproject" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-3/5">
+            </div>
+        </div>
+    </section>
+
+    <section id="publications" class="flex flex-col w-screen items-center justify-center pb-8 py-4">
+        <div class="w-3/5 my-4">
+            <h2 class="text-2xl ">Publications</h2>
+        </div>
+        <div class="flex w-screen items-center justify-center">
+            <div id="displaypublications" class="grid grid-cols-1 md:grid-cols-2 gap-8 w-3/5">
+            </div>
+        </div>
+    </section>
+
+
     <script type="module" src="./scripts/scripts.js"></script>
     <script type="module" src="./data/data.js"></script>
-    <script type="module" src="./component/component.js"></script>
+    <script type="module" src="./component/header-component.js"></script>
+
 </body>
 </html>
