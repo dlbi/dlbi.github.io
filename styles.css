@@ -19,6 +19,14 @@ body { overflow-x:hidden; }
     border-radius: 50%;
     right: -8px;
 }
+.head{
+    color: blue;
+    text-decoration: underline;
+}
+
+.tail{
+    color: red;
+}
 
 hr {
     margin: 14px auto;
