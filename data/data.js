@@ -6,3 +6,5 @@ export {timeline} from "./timeline.js";
 export {profile} from "./header.js"
 export {template1} from "./template1.js"
 export {template2} from "./template2.js"
+export {researchpjs} from "./researchpjs.js"
+export {currentMembers , alumni} from "./members.js"

@@ -28,15 +28,21 @@ body { overflow-x:hidden; }
     color: red;
 }
 
-hr {
-    margin: 14px auto;
+.hr60{
     width: 60%;
+}
+
+hr{
+    margin: 14px auto;
     color: #bbb;
 }
 
 #project{
  background-color: #eee;
 }
+#member{
+    background-color: #eee;
+   }
 
 #pubItems:hover{
     background-color:#eee;
@@ -44,4 +50,28 @@ hr {
 
 #projectItems:hover{
     transform: scale(1.1);
+}
+
+.custom-img {
+    min-width: 64px; /* Adjust the value as needed */
+    width: 64px; /* Ensures the width is always set */
+    border-radius: 5px;
+}
+#displayalumni {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line if there's not enough space */
+    gap: 10px; /* Adds space between items */
+}
+
+.alumni-item {
+    flex: 0 0 auto; /* For example, if you want a fixed size */
+}
+
+.bluelink {
+    color: blue;
+    text-decoration: none;
+}
+
+.bluelink:hover {
+    text-decoration: underline;
 }

@@ -1,26 +1,34 @@
 export const publications = [
     {
-        name:"Project1",
-        describe:"lorem",
+        title:"Project1",
+        authors:"name",
+        publisher:"name",
+        year:"2024",
         img:"https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg",
         link:"https://www.w3schools.com/"
     },
     {
-        name:"Project2",
-        describe:"lorem",
+        title:"Project1",
+        authors:"name",
+        publisher:"name",
+        year:"2024",
         img:"https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg",
-        link:""
+        link:"https://www.w3schools.com/"
     },
     {
-        name:"Project3",
-        describe:"lorem",
-        img:"https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&h=1280&q=80",
-        link:""
+        title:"Project1",
+        authors:"name",
+        publisher:"name",
+        year:"2024",
+        img:"https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg",
+        link:"https://www.w3schools.com/"
     },
     {
-        name:"Project4",
-        describe:"lorem",
+        title:"Project1",
+        authors:"name",
+        publisher:"name",
+        year:"2024",
         img:"https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_a_Project.jpg",
-        link:""
-    }
+        link:"https://www.w3schools.com/"
+    },
 ]
