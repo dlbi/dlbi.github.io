@@ -1,5 +1,10 @@
 body { overflow-x:hidden; }
 
+a{
+    color: blue;
+    text-decoration: underline;
+}
+
 .timespace {
     color: #bbb;
     font-weight: Light;
@@ -27,6 +32,8 @@ body { overflow-x:hidden; }
 .tail{
     color: red;
 }
+
+
 
 .hr60{
     width: 60%;

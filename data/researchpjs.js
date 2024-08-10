@@ -1,11 +1,11 @@
 export const researchpjs = [
     {
         imgSrc:"./img/tinysleepnet.png",
-        content:"<strong>Deep Learning for Sleep Stage Scoring.</strong> We develop a deep learning model, <a src='https://github.com/akaraspt/deepsleepnet'>DeepSleepNet</a>, for automatic sleep stage scoring based on raw, single-channel EEG. This model has been further improved into a more efficient and light-weight, <a src='https://github.com/akaraspt/tinysleepnet'>TinySleepNet</a>, with the aim to be deployed on a wearable device."
+        content:"<strong>Deep Learning for Sleep Stage Scoring.</strong> We develop a deep learning model, <a href='https://github.com/akaraspt/deepsleepnet'>DeepSleepNet</a>, for automatic sleep stage scoring based on raw, single-channel EEG. This model has been further improved into a more efficient and light-weight, <a herf='https://github.com/akaraspt/tinysleepnet'>TinySleepNet</a>, with the aim to be deployed on a wearable device."
     },
     {
         imgSrc:"./img/quan-sleep.png",
-        content:"<strong>Quantifying Transferability of Sleep Stage Scoring Models.</strong> We develop a novel method for computationally quantifying the impact of different data characteristics on the transferability of deep learning models. <a src='https://github.com/akaraspt/transferability_sleep'>Quantification</a> is accomplished by training and evaluating two models with significant architectural differences, TinySleepNet and U-Time, under various transfer configurations in which the source and target datasets have different recording channels, recording environments, and subject conditions."
+        content:"<strong>Quantifying Transferability of Sleep Stage Scoring Models.</strong> We develop a novel method for computationally quantifying the impact of different data characteristics on the transferability of deep learning models. <a href='https://github.com/akaraspt/transferability_sleep'>Quantification</a> is accomplished by training and evaluating two models with significant architectural differences, TinySleepNet and U-Time, under various transfer configurations in which the source and target datasets have different recording channels, recording environments, and subject conditions."
     },
     {
         imgSrc:"./img/blink-fnp.png",
@@ -17,7 +17,7 @@ export const researchpjs = [
     },
     {
         imgSrc:"./img/mosquitosongp.png",
-        content:"<strong>Noise-Robust Mosquito Species and Sex Classification.</strong> We develop a new deep learning model, <a src='https://github.com/akaraspt/mosquitosongp'>MosquitoSong+</a>, to identify the species and sex of mosquitoes from raw wingbeat sounds so that it is robust to the environmental noise and the relative volume of the mosquito's flight tone."
+        content:"<strong>Noise-Robust Mosquito Species and Sex Classification.</strong> We develop a new deep learning model, <a href='https://github.com/akaraspt/mosquitosongp'>MosquitoSong+</a>, to identify the species and sex of mosquitoes from raw wingbeat sounds so that it is robust to the environmental noise and the relative volume of the mosquito's flight tone."
     },
     {
         imgSrc:"./img/weak-nph.png",
@@ -34,4 +34,4 @@ export const researchpjs = [
 ]
 
 
-// add link by use <a src = ""> </a> in content
+// add link by use <a href = ""> </a> in content
