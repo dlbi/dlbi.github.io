@@ -6,7 +6,7 @@ export const currentMembers = [
     },
     {
         name:"PANNAWIT KRUTNAK",
-        role:"Junior Research Assistant",
+        role:"Junior Research Assistant (student)",
         website:"https://profile.thisisteam.me"
     },
 ]
@@ -20,7 +20,7 @@ export const alumni = [
     {
         name:"PROMUBSORN BOONROD",
         graduation:"BSc 2023",
-        website:"#"
+        website:"https://www.linkedin.com/in/promubsorn-b-0772a3210/"
     },
     {
         name:"NAWAT NGERN-ANANTAPORN",
@@ -35,6 +35,6 @@ export const alumni = [
     {
         name:"DANAIDECH ARDSAMAI",
         graduation:"BSc 2023",
-        website:"#"
+        website:"https://danaidech.dev/"
     }
 ]
