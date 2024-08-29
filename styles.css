@@ -67,7 +67,7 @@ hr{
 #displayalumni {
     display: flex;
     flex-wrap: wrap; /* Allows items to wrap to the next line if there's not enough space */
-    gap: 10px; /* Adds space between items */
+    gap: 1px; /* Adds space between items */
 }
 
 .alumni-item {

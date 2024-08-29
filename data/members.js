@@ -1,35 +1,40 @@
 export const currentMembers = [
     {
-        name:"test1",
-        role:"student",
-        website:"http://"
+        name:"PHURIWAT ANGKOONDITTAPHONG",
+        role:"Research Assistant",
+        website:"#"
     },
     {
-        name:"test1",
-        role:"student",
-        website:"http://"
+        name:"PANNAWIT KRUTNAK",
+        role:"Junior Research Assistant",
+        website:"https://profile.thisisteam.me"
     },
-    {
-        name:"test1",
-        role:"student",
-        website:"http://"
-    },
-    {
-        name:"test1",
-        role:"student",
-        website:"http://"
-    }
 ]
 
 export const alumni = [
     {
-        name:"test1",
-        graduation:"BSc 2020",
-        website:"http://"
+        name:"JIDAPA CHAOVANAPRICHA",
+        graduation:"BSc 2023",
+        website:"https://www.linkedin.com/in/jdp2191/"
     },
     {
-        name:"test1",
-        graduation:"BSc 2020",
-        website:"http://"
+        name:"PROMUBSORN BOONROD",
+        graduation:"BSc 2023",
+        website:"#"
+    },
+    {
+        name:"NAWAT NGERN-ANANTAPORN",
+        graduation:"BSc 2023",
+        website:"#"
+    },
+    {
+        name:"NAPAHATAI SITTIRIT",
+        graduation:"BSc 2023",
+        website:"#"
+    },
+    {
+        name:"DANAIDECH ARDSAMAI",
+        graduation:"BSc 2023",
+        website:"#"
     }
 ]
