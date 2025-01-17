@@ -8,6 +8,8 @@ a{
 .timespace {
     color: #bbb;
     font-weight: Light;
+    width: 100px; /* Adjust this value as needed */
+    text-align: right;
 }
 
 .line {

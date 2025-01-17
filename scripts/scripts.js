@@ -7,7 +7,7 @@ import researchpj from "./researchpj.js"
 import displaycurrentmembers from "./displaycurrentmembers.js";
 import displayalumni from "./displayalumni.js";
 
-// displayTimeline();
+displayTimeline();
 // Displayproject();
 Displaypublications();
 // displaytemplate1();

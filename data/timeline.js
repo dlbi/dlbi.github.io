@@ -1,6 +1,6 @@
 export const timeline = [
     {
-        year:"2024",
+        year:"2024-*",
         imgSrc:"https://karpathy.ai/assets/tesla_logo2.jpg",
         content: "test",
     },

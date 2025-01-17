@@ -11,15 +11,15 @@ export default function DisplayTimeline() {
         content = content.replace(/<a\b[^>]*>(.*?)<\/a>/g, '<a href="/test" style="color: blue; text-decoration: underline;">$1</a>');
 
         return `
-        <div class="flex text-start h-auto">
-            <div class="line flex justify-end w-1/4 h-max border-r-2"> 
+        <div class="flex text-start h-auto mx-auto"> d
+            <div class="line flex h-max border-r-2"> 
                 <p class="timespace text-xs text-right md:text-base">${year}</p>
                 <div class="timelinedot"></div>
             </div>
-            <div class="w-auto px-2 pb-1">
+            <div class="px-2 pb-2">
                 <img src=${img} class="w-10 md:w-16" style="border-radius:10px"></img>
             </div>
-            <div class="w-3/6 pb-2">
+            <div class="pb-2">
                 <p class="text-md break-all md:text-xl">${content}</p>
             </div>
                
