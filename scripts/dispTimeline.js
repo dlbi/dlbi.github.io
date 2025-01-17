@@ -8,12 +8,12 @@ export default function DisplayTimeline() {
         let content = object.content;
         let img = object.imgSrc;
 
-        content = content.replace(/<a\b[^>]*>(.*?)<\/a>/g, '<a href="/test" style="color: blue; text-decoration: underline;">$1</a>');
+        // content = content.replace(/<a\b[^>]*>(.*?)<\/a>/g, '<a href="/test" style="color: blue; text-decoration: underline;">$1</a>');
 
         return `
-        <div class="flex text-start h-auto mx-auto"> d
+        <div class="flex text-start h-auto mx-auto">
             <div class="line flex h-max border-r-2"> 
-                <p class="timespace text-xs text-right md:text-base">${year}</p>
+                <p class="timespace text-xs text-right md:text-base" style="color: #7a7a7a;">${year}</p>
                 <div class="timelinedot"></div>
             </div>
             <div class="px-2 pb-2">
