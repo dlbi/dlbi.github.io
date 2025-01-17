@@ -1,8 +1,11 @@
 body { overflow-x:hidden; }
 
 a{
-    color: blue;
-    text-decoration: underline;
+    color: #326fcf;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline; /* Underline on hover */
 }
 
 .timespace {
@@ -26,10 +29,6 @@ a{
     border-radius: 50%;
     right: -8px;
 }
-.head{
-    color: blue;
-    text-decoration: underline;
-}
 
 .tail{
     color: red;
@@ -45,11 +44,11 @@ hr{
 }
 
 #project{
- background-color: #eee;
-}
-#member{
     background-color: #eee;
-   }
+}
+#misc{
+    background-color: #eee;
+}
 
 #pubItems:hover{
     background-color:#eee;
@@ -72,13 +71,4 @@ hr{
 
 .alumni-item {
     flex: 0 0 auto; /* For example, if you want a fixed size */
-}
-
-.bluelink {
-    color: blue;
-    text-decoration: none;
-}
-
-.bluelink:hover {
-    text-decoration: underline;
 }

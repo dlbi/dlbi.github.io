@@ -10,7 +10,7 @@ export default function displayalumni() {
 
         return `
         <div class="alumni-item">
-            <a class="bluelink" href="${link}">${name}</a> (${graduation}),
+            <a href="${link}" target="_blank">${name}</a> (${graduation}),
         </div>
         `;
     }).join("");

@@ -20,7 +20,7 @@ export default function Displaypublications() {
                 <h1 class="text-lg" style="font-weight: bold;">${title}</h1>
                 <h5 class="text-md" style="color:#7a7a7a;;">${publisher}, ${year}</h5>
                 <h5 class="text-sm" style="color:#7a7a7a; font-style: italic;">${authors}</h5>
-                <h5 class="text-sm"">[<a class="text-blue-600 dark:text-blue-500 no-underline hover:underline" href=${link}>Paper</a>]</h5>
+                <h5 class="text-sm"">[<a href=${link}>Paper</a>]</h5>
             </div>
             
         </div>

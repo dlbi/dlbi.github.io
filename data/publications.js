@@ -90,7 +90,7 @@ export const publications = [
     {
         title:"Tensorlayer: a versatile library for efficient deep learning development",
         authors:"Hao Dong, Akara Supratak, Luo Mai, Fangde Liu, Axel Oehmichen, Simiao Yu, Yike Guo",
-        publisher:"Proceedings of the 25th ACM international conference on Multimedia (Best Paper Award)",
+        publisher:"Proceedings of the 25th ACM international conference on Multimedia (Best Open Source Software Award)",
         year:"2017",
         img:"https://github.com/tensorlayer/TensorLayer/raw/master/img/tl_transparent_logo.png",
         link:"https://arxiv.org/pdf/1707.08551"

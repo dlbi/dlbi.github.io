@@ -9,7 +9,7 @@ export default function displaycurrentmembers() {
         let link = object.website
 
         return `
-        <h2><a class="bluelink" href="${link}">${name}</a> ${role}</h2>
+        <h2><a href="${link}" target="_blank">${name}</a> ${role}</h2>
         `;
     }).join("");
 
