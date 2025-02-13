@@ -1,0 +1,99 @@
+<html>
+
+<head>
+  <title>Members of Deep Learning for Biomedical Informatics Research Lab - Faculty of ICT, Mahidol University</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <nav id="nav"></nav>
+  <div class="content">
+    <section id="supervisior" class="py-4">
+      <div class="grid grid-cols-5">
+        <div class="col-span-3 col-start-2">
+          <div class="w-4/5 pb-4">
+            <h2 class="text-2xl">Lab Supervisior</h2>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col items-center lg:flex-row justify-center">
+        <div class="w-56 lg:w-56 p-4">
+          <img class="rounded-full"
+            src="https://www.ict.mahidol.ac.th/thai/wp-content/uploads/2021/05/Akara-Supratak.png" />
+        </div>
+        <div class="flex flex-col items-center lg:items-start w-2/5">
+          <h1 class="text-2xl" style="font-weight: bold">
+            Akara Supratak, Ph.D
+          </h1>
+          <h5 class="flex flex-row items-center justify-center lg:justify-start text-lg mt-2"
+            style="color: #7a7a7a; font-style: italic">
+            I am an Assistant Professor at the Faculty of ICT, Mahidol
+            University. My current research focuses on advancing the field of
+            biomedical informatics through the development and application of
+            cutting-edge deep learning techniques. My goal is to find the best
+            way to train deep learning models with limited data and resources
+            for medical image and signal analysis.
+          </h5>
+          <div class="flex flex-row items-center justify-center lg:justify-start mt-2">
+            <a href="https://scholar.google.com/citations?user=r1KTiH4AAAAJ" class="font-medium mr-1" target="_blank">
+              <i class="fas fa-graduation-cap"></i> Google Scholar
+            </a> /
+            <a href="https://github.com/akaraspt" class="font-medium ml-1 mr-1" target="_blank">
+              <i class="fab fa-github"></i> GitHub
+            </a> /
+            <a href="https://www.linkedin.com/in/akaraspt/" class="font-medium ml-1" target="_blank">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="timeline" class="flex flex-col w-screen items-center justify-center my-10">
+        <div class="flex w-screen items-center justify-center">
+          <div id="displaytimeline"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="current-member" class="items-center justify-center pb-8 py-4">
+      <div class="grid grid-cols-5">
+        <div class="col-span-3 col-start-2">
+          <div class="w-4/5 my-4">
+            <h1 class="text-2xl">Members</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-5">
+        <div class="col-span-3 col-start-2">
+          <h2 class="font-bold text-lg">Current <span id="numCurrentMembers"></span></h2>
+          <div id="displaycurrentmembers" class="grid grid-cols-3 gap-4"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="alumni-member">
+      <div class="grid grid-cols-5">
+        <div class="col-span-3 col-start-2">
+          <h2 class="font-bold text-lg">Alumni <span id="numAlumniMembers"></span></h2>
+          <div id="displayalumni" class="grid grid-cols-3 gap-4"></div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer id="footer" class="text-center"></footer>
+
+  <script src="./scripts/fixPageElems.js"></script>
+  <script type="module">
+    import displaycurrentmembers from "./scripts/dispCurrMem.js";
+    displaycurrentmembers();
+    import displayalumni from "./scripts/dispAlumni.js";
+    displayalumni();
+    import displayTimeline from "./scripts/dispTimeline.js";
+    displayTimeline();
+  </script>
+</body>
+
+</html>

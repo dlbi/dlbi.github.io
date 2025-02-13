@@ -12,17 +12,17 @@ export default function Displaypublications() {
         let link = object.link;
 
         return `
-        <div class="md:flex flex-row items-center justify-left my-4 pb-2">
+        <div class="md:flex flex-row items-center justify-left my-4 py-2 pubItems">
             <div class = "mr-2 flex-shrink-0">
                 <img class="rounded-sm w-40 h-30 object-fill" src="${img}"/>
             </div>
-            <div class="flex flex-col items-start">
-                <h1 class="text-lg" style="font-weight: bold;">${title}</h1>
-                <h5 class="text-md" style="color:#7a7a7a;;">${publisher}, ${year}</h5>
-                <h5 class="text-sm" style="color:#7a7a7a; font-style: italic;">${authors}</h5>
-                <h5 class="text-sm"">[<a href=${link}>Paper</a>]</h5>
-            </div>
-            
+            <a href=${link} target="_blank">
+                <div class="flex flex-col items-start">
+                    <h1 class="text-lg" style="font-weight: bold;">${title}</h1>
+                    <h5 class="text-md">${publisher}, ${year}</h5>
+                    <h5 class="text-sm" font-style: italic;">${authors}</h5>
+                </div>
+            </a>
         </div>
         `;
     }).join("");

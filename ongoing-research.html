@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ongoing Research Project, Deep Learning for Biomedical Informatics Research Lab - Faculty of ICT, Mahidol University</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <nav id="nav"></nav>
+  <div class="content">
+    <section id="project" class="flex flex-col w-screen items-center justify-center pb-8 py-4">
+      <div class="w-4/5 my-4">
+        <h2 class="text-2xl">Research Projects</h2>
+      </div>
+      <div class="flex w-screen items-center justify-center">
+        <div id="researchpj" class="w-3/4"></div>
+      </div>
+    </section>
+
+  </div>
+  <footer id="footer" class="text-center"></footer>
+
+  <script type="module" src="./component/header-component.js"></script>
+  <script src="./scripts/fixPageElems.js"></script>
+  <script type="module">
+    import displayResearchProj from "./scripts/dispResProj.js"
+    displayResearchProj();
+  </script>
+
+</body>
+
+</html>

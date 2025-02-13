@@ -2,7 +2,7 @@ import { timeline } from "../data/data.js";
 
 const display = document.getElementById("displaytimeline");
 
-export default function DisplayTimeline() {
+export default function displayTimeline() {
     let displayData = timeline.map((object) => {
         let year = object.year;
         let content = object.content;
