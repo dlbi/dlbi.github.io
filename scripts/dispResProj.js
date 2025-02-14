@@ -8,7 +8,7 @@ export default function researchpj() {
         let img = object.imgSrc;
 
         return `
-        <div>
+        <div class="projectItems">
             <div class="flex my-2">
                 <div class="px-2 pb-1">
                     <img src=${img} class="custom-img"></img>
