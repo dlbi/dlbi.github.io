@@ -2,15 +2,17 @@ body {
     overflow-x: hidden;
 }
 
-/* a {
+a {
     color: #326fcf;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-    Underline on hover
-} */
+    /* Underline on hover */
+}
+
+
 
 .timespace {
     color: #bbb;
@@ -61,15 +63,23 @@ hr {
     background-color: #eee;
     color: black;
 }
-a { 
+/* a { 
     color: inherit;
 } 
 a:hover {
     color: inherit;
     text-decoration: underline; 
-}
+} */
 
 .pubItems:hover {
+    background-color: #ccc;
+    /* color: black; */
+    transform: scale(1.05);
+    border-radius: 5px;
+    transition-duration: 0.25s;
+}
+
+.showMoreButton:hover {
     background-color: #ccc;
     /* color: black; */
     transform: scale(1.05);

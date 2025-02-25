@@ -1,4 +1,4 @@
-// image should either be undefined (leave it blank) or path to img/pfp/... (should not be url).
+// image should either be undefined (leave it blank) or path to img/pfp/... (should not be url) of a square image.
 // only homepage, github, linkedin, google scholar are supported. 
 export const currentMembers = [
     {
@@ -114,20 +114,20 @@ export const publications = [
         link: "https://www.sciencedirect.com/science/article/pii/S0950705124001278"
     },
     {
-        title: "Representing Source Movement in Sequences of Telescopic Images Based on Contrastive Learning for Asteroid Detection",
-        authors: "Noppachanin Kongsathitporn, Akara Supratak, Supachai Awiphan, Kendall Ackley, Martin J Dyer, Joe Lyman, Felipe Jiminez-Ibarra, Danny Steeghs, Duncan K Galloway, Vik Dhillon, Paul O'Brien, Gavin Ramsay, Rubina Kotak, Rene P Breton, Laura K Nuttall, Enric Pall'e, Don Pollacco, Tom Killestein, Amit Kumar, Natthaphong Taka, Rattiyakorn Rattanasai, Kanthanakorn Noysena",
-        publisher: "2023 27th International Computer Science and Engineering Conference (ICSEC)",
-        year: "2023",
-        img: "./img/publications/2023_Asteroid.png",
-        link: "https://ieeexplore.ieee.org/abstract/document/10329669/"
-    },
-    {
         title: "The Diagnostic Accuracy of Artificial Intelligence in Radiological Markers of Normal-Pressure Hydrocephalus (NPH) on Non-Contrast CT Scans of the Brain",
         authors: "Dittapong Songsaeng, Poonsuta Nava-Apisak, Jittsupa Wongsripuemtet, Siripra Kingchan, Phuriwat Angkoondittaphong, Phattaranan Phawaphutanon, Akara Supratak",
         publisher: "Diagnostics",
         year: "2024",
         img: "./img/publications/2023_diag_nph.png",
         link: "https://www.mdpi.com/2075-4418/13/17/2840"
+    },
+    {
+        title: "Representing Source Movement in Sequences of Telescopic Images Based on Contrastive Learning for Asteroid Detection",
+        authors: "Noppachanin Kongsathitporn, Akara Supratak, Supachai Awiphan, Kendall Ackley, Martin J Dyer, Joe Lyman, Felipe Jiminez-Ibarra, Danny Steeghs, Duncan K Galloway, Vik Dhillon, Paul O'Brien, Gavin Ramsay, Rubina Kotak, Rene P Breton, Laura K Nuttall, Enric Pall'e, Don Pollacco, Tom Killestein, Amit Kumar, Natthaphong Taka, Rattiyakorn Rattanasai, Kanthanakorn Noysena",
+        publisher: "2023 27th International Computer Science and Engineering Conference (ICSEC)",
+        year: "2023",
+        img: "./img/publications/2023_Asteroid.png",
+        link: "https://ieeexplore.ieee.org/abstract/document/10329669/"
     },
     {
         title: "Quantifying the impact of data characteristics on the transferability of sleep stage scoring models",
