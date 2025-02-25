@@ -79,6 +79,14 @@ a:hover {
     transition-duration: 0.25s;
 }
 
+.newsItems:hover {
+    background-color: #2e333c;
+    /* color: black; */
+    transform: scale(1.05);
+    border-radius: 5px;
+    transition-duration: 0.25s;
+}
+
 .showMoreButton:hover {
     background-color: #ccc;
     /* color: black; */

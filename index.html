@@ -31,22 +31,26 @@
       <div id="morePubButton" class="showMoreButton"><button>Show More</button></div>
     </section>
 
-    <!-- <section id="news" class="flex flex-col w-screen items-center justify-center py-4">
+    <section id="news" class="flex flex-col w-screen items-center justify-center py-4">
       <div class="w-4/5 my-4">
         <h2 class="text-2xl">News</h2>
       </div>
       <div class="flex w-3/5 md:w-4/6 lg:w-3/4">
         <div id="displaynews"></div>
       </div>
-    </section> -->
+      <div id="moreNewsButton" class="showMoreButton"><button>Show More</button></div>
+    </section>
 
   </div>
   <footer id="footer"></footer>
   <script type="module" src="./component/header-component.js"></script>
   <script src="./scripts/fixPageElems.js"></script>
   <script type="module">
-    import {DisplayPublications, displayAmount} from "./scripts/dispPublications.js";
-    DisplayPublications(displayAmount);
+    import {InitNews} from "./scripts/dispNews.js";
+    import {InitPubs} from "./scripts/dispPublications.js";
+    
+    InitNews();
+    InitPubs();
   </script>
 </body>
 

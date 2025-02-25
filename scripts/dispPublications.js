@@ -3,9 +3,9 @@ import { publications } from "../data/data.js";
 const display = document.getElementById("displaypublications");
 const showButton = document.getElementById("morePubButton");
 const publicationsLength = publications.length
-export let displayAmount = 5;
+let displayPubsAmount = 0;
 
-export function DisplayPublications(num) {
+function DisplayPublications(num) {
     let displayData = publications.slice(0, num).map((object) => {
         let title = object.title;
         let authors = object.authors;
@@ -33,11 +33,15 @@ export function DisplayPublications(num) {
     display.innerHTML = displayData;
 }
 
-function onShowPubButtonClick(){
-    displayAmount += 5
-    DisplayPublications(displayAmount)
-    if (displayAmount > publicationsLength){
-        document.getElementById("morePubButton").hidden = true;
+function showPubOnClick(){
+    displayPubsAmount += 5
+    DisplayPublications(displayPubsAmount)
+    if (displayPubsAmount >= publicationsLength){
+        showButton.hidden = true;
     }
 }
-showButton.onclick = onShowPubButtonClick
+showButton.onclick = showPubOnClick
+
+export function InitPubs(){
+    showPubOnClick()
+}

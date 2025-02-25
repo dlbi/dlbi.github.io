@@ -80,14 +80,6 @@ export const awards = [
     '2017: <strong>Best Open Source Software Award</strong> at ACM MM 2017.',
 ];
 
-export const profile = [
-    {
-        img: "https://www.ict.mahidol.ac.th/thai/wp-content/uploads/2021/05/Akara-Supratak.png",
-        name: "อาจารย์สุดหล่อขาวนี้วยาวแห่ง ICT",
-        discription: "",
-    }
-]
-
 export const publications = [
     {
         title: "Leveraging Movement Representation from Contrastive Learning for Asteroid Detection",
@@ -254,3 +246,19 @@ export const timeline = [
 
 // add link by use <a src = ""> </a> in content
 
+export const news = [
+    {
+        imgSrc: "img/news/yrss2024_moswing.jpg",
+        title: "Phuriwat Angkoondittaphong received Sliver Awards from Young Rising Star of Science Awards for Senior Projects",
+        content: "Phuriwat Angkoondittaphong presented the project titled 'MosWing: A Noise-Robust Mosquito Wingbeat Detection Model' at '50th International Congress on Science, Technology and Technology-based Innovation (STT50)' and received the Sliver Awards.",
+        link: "https://www.facebook.com/share/p/1DDLWPTUJX/",
+        date: "3 December 2024"
+    },
+    {
+        imgSrc: "img/news/nsc2024_moswing.jpg",
+        title: "MosWing won the Honorable Mention Awards from the 26th National Software Contest: NSC 2024",
+        content: "'MosWing: A Noise-Robust Mosquito Wingbeat Detection Model', conducted by Phuriwat Angkoondittaphong, Napahatai Sittirit, Danaidech Ardsamai, under supervision of Dr. Akara Supratak, won Honorable Mention Award in the Science and Technology Development Program category.",
+        link: "https://www.facebook.com/share/p/168Ap3YyxB/",
+        date: "19 August 2024"
+    }
+]
