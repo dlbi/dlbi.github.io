@@ -7,13 +7,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
-    /* Underline on hover */
-}
-
-
-
 .timespace {
     color: #bbb;
     font-weight: Light;
@@ -63,13 +56,6 @@ hr {
     background-color: #eee;
     color: black;
 }
-/* a { 
-    color: inherit;
-} 
-a:hover {
-    color: inherit;
-    text-decoration: underline; 
-} */
 
 .pubItems:hover {
     background-color: #ccc;
@@ -87,17 +73,21 @@ a:hover {
     transition-duration: 0.25s;
 }
 
-.showMoreButton:hover {
+.showMoreButton {
     background-color: #ccc;
     /* color: black; */
-    transform: scale(1.05);
     border-radius: 5px;
-    transition-duration: 0.25s;
+    width: 80%;
+    text-align: center;
 }
 
-/* .projectItems:hover {
-    transform: scale(1.1);
-} */
+.showMoreButton:hover {
+    background-color: #bbb;
+    /* color: black; */
+    /* transform: scale(1.05); */
+    /* border-radius: 5px; */
+    /* transition-duration: 0.25s; */
+}
 
 #supervisior {
     background-color: #eee;

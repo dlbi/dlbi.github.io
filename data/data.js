@@ -255,6 +255,13 @@ export const news = [
         date: "3 December 2024"
     },
     {
+        imgSrc: "img/news/muictaiclubaaa.jpg",
+        title: "ICT Mahidol's AI Club organized the competition 'MUICT Hackathon 2024: Alveolar Antral Artery Detection in CBCT images'",
+        content: "The AI club with advisor, Dr. Akara Supratak, organized the competition for students on Alveolar Antral Artery Detection in CBCT images.",
+        link: "https://www.facebook.com/share/p/152rZWE6Zo/",
+        date: "16 October 2024"
+    },
+    {
         imgSrc: "img/news/nsc2024_moswing.jpg",
         title: "MosWing won the Honorable Mention Awards from the 26th National Software Contest: NSC 2024",
         content: "'MosWing: A Noise-Robust Mosquito Wingbeat Detection Model', conducted by Phuriwat Angkoondittaphong, Napahatai Sittirit, Danaidech Ardsamai, under supervision of Dr. Akara Supratak, won Honorable Mention Award in the Science and Technology Development Program category.",

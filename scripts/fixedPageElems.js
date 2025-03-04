@@ -1,5 +1,5 @@
 const nav_elem = document.getElementById("nav")
-function navbar(){
+function displayNavbar(){
     nav_elem.innerHTML = `
     <div class="navbar">
         <div class="logo"><a href="/">DLBI</div>
@@ -20,5 +20,5 @@ function displayFooter() {
     display.innerHTML = `<div class="text-center">${footer}</div>`;
 }
 
-navbar();
+displayNavbar();
 displayFooter();
