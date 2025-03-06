@@ -109,7 +109,7 @@ export const publications = [
         title: "The Diagnostic Accuracy of Artificial Intelligence in Radiological Markers of Normal-Pressure Hydrocephalus (NPH) on Non-Contrast CT Scans of the Brain",
         authors: "Dittapong Songsaeng, Poonsuta Nava-Apisak, Jittsupa Wongsripuemtet, Siripra Kingchan, Phuriwat Angkoondittaphong, Phattaranan Phawaphutanon, Akara Supratak",
         publisher: "Diagnostics",
-        year: "2024",
+        year: "2023",
         img: "./img/publications/2023_diag_nph.png",
         link: "https://www.mdpi.com/2075-4418/13/17/2840"
     },
@@ -198,28 +198,57 @@ export const publications = [
 export const researchpjs = [
     {
         imgSrc: "./img/projects/quan-sleep.png",
+        title: "Advancing Sleep Stage Scoring with Deep Learning.", 
         content:
-            "<strong>Advancing Sleep Stage Scoring with Deep Learning.</strong> We have developed a series of models for automatic sleep stage scoring using raw, single-channel EEG. DeepSleepNet is a robust deep learning model designed for this purpose, further improved into the efficient and lightweight TinySleepNet, which is optimized for deployment on wearable devices. Additionally, we introduced a novel method for quantifying the transferability of sleep stage scoring models. This approach evaluates the impact of diverse data characteristics on model performance by training and testing models with varying architectures, such as TinySleepNet and U-Time, under transfer configurations with differences in recording channels, environments, and subject conditions. <a href='https://github.com/akaraspt/deepsleepnet' >[DeepSleepNet's GitHub]</a> <a href='https://github.com/akaraspt/tinysleepnet' >[TinySleepNet's GitHub]</a> <a href='https://github.com/akaraspt/transferability_sleep' >[Transferability sleep's GitHub]</a>",
+            "We have developed a series of models for automatic sleep stage scoring using raw, single-channel EEG. DeepSleepNet is a robust deep learning model designed for this purpose, further improved into the efficient and lightweight TinySleepNet, which is optimized for deployment on wearable devices. Additionally, we introduced a novel method for quantifying the transferability of sleep stage scoring models. This approach evaluates the impact of diverse data characteristics on model performance by training and testing models with varying architectures, such as TinySleepNet and U-Time, under transfer configurations with differences in recording channels, environments, and subject conditions.",
+        links: [
+            {
+                desc: "DeepSleepNet's GitHub",
+                link: 'https://github.com/akaraspt/deepsleepnet',
+            },
+            {
+                desc: "TinySleepNet's GitHub",
+                link: 'https://github.com/akaraspt/tinysleepnet',
+            },
+            {
+                desc: "Transferability sleep's GitHub",
+                link: "https://github.com/akaraspt/transferability_sleep"
+            }
+        ]
+        
     },
     {
         imgSrc: "./img/projects/weak-nph.png",
+        title: "Deep Learning Models for Brain CT Classification.",
         content:
-            "<strong>Deep Learning Models for Brain CT Classification.</strong> We develop a new weak supervision method for training a CSF segmentation model as a feature extractor for Normal Pressure Hydrocephalus (NPH) classification on brain CT scans. This approach aims to minimize the reliance on expensive segmentation annotations by neuroradiologists. Additionally, we are now working with two deep learning models that can directly classify brain CT scans without requiring segmentation, enabling efficient and accurate detection of NPH and other brain conditions. This shift represents a significant step toward streamlined, cost-effective diagnostic workflows in neuroimaging.",
+            "We develop a new weak supervision method for training a CSF segmentation model as a feature extractor for Normal Pressure Hydrocephalus (NPH) classification on brain CT scans. This approach aims to minimize the reliance on expensive segmentation annotations by neuroradiologists. Additionally, we are now working with two deep learning models that can directly classify brain CT scans without requiring segmentation, enabling efficient and accurate detection of NPH and other brain conditions. This shift represents a significant step toward streamlined, cost-effective diagnostic workflows in neuroimaging.",
+        links: []
     },
     {
         imgSrc: "./img/projects/mosquitosongp.png",
+        title: "Noise-Robust Mosquito Species and Sex Classification.",
         content:
-            "<strong>Noise-Robust Mosquito Species and Sex Classification.</strong> We develop a new deep learning model, MosquitoSong+, to identify the species and sex of mosquitoes from raw wingbeat sounds so that it is robust to the environmental noise and the relative volume of the mosquito's flight tone. <a href='https://github.com/akaraspt/mosquitosongp' >[MosquitoSong+'s GitHub]</a>",
+            "We develop a new deep learning model, MosquitoSong+, to identify the species and sex of mosquitoes from raw wingbeat sounds so that it is robust to the environmental noise and the relative volume of the mosquito's flight tone.",
+        links: [
+            {
+                desc: "MosquitoSong+'s GitHub",
+                link: 'https://github.com/akaraspt/mosquitosongp'
+            }
+        ]
     },
     {
         imgSrc: "./img/projects/blink-al.png",
+        title: "Quantifying Objective Blinking Parameters.",
         content:
-            "<strong>Quantifying Objective Blinking Parameters.</strong> We develop advanced algorithms for dynamic blink feature extraction using facial landmark detection models to precisely capture eyelid movement. These algorithms derive objective blinking parameters for each blink, which can be analyzed to train machine learning models. While initially applied for detecting facial nerve palsy (FNP), these parameters hold promise as reliable, objective metrics for diagnosing FNP, complementing facial asymmetry features explored in other studies. To further enhance the performance of eyelid keypoint detection (EKD) models, we also introduce a long-term active learning (AL) framework. This framework is designed to select the minimum number of frames for annotation from an expanding unlabeled pool, maximizing model performance for practical applications while minimizing annotation effort.",
+            "We develop advanced algorithms for dynamic blink feature extraction using facial landmark detection models to precisely capture eyelid movement. These algorithms derive objective blinking parameters for each blink, which can be analyzed to train machine learning models. While initially applied for detecting facial nerve palsy (FNP), these parameters hold promise as reliable, objective metrics for diagnosing FNP, complementing facial asymmetry features explored in other studies. To further enhance the performance of eyelid keypoint detection (EKD) models, we also introduce a long-term active learning (AL) framework. This framework is designed to select the minimum number of frames for annotation from an expanding unlabeled pool, maximizing model performance for practical applications while minimizing annotation effort.",
+        links: []
     },
     {
         imgSrc: "./img/projects/asteroid.png",
+        title: "Deep Learning for Asteroid Detection in Sky Exposures.",
         content:
-            "<strong>Deep Learning for Asteroid Detection in Sky Exposures.</strong> In collaboration with the National Astronomical Research Institute of Thailand (NARIT), we propose an end-to-end deep learning model for asteroid detection that addresses limitations of existing methods, such as manual parameter settings and reliance on synthetic images. The model uses contrastive learning to extract distinct features from sequences of sky exposures, combined with additional learned features for accurate detection. This approach enables automated asteroid detection and complements existing software by identifying additional candidates.",
+            "In collaboration with the National Astronomical Research Institute of Thailand (NARIT), we propose an end-to-end deep learning model for asteroid detection that addresses limitations of existing methods, such as manual parameter settings and reliance on synthetic images. The model uses contrastive learning to extract distinct features from sequences of sky exposures, combined with additional learned features for accurate detection. This approach enables automated asteroid detection and complements existing software by identifying additional candidates.",
+        links: []
     },
 ];
 

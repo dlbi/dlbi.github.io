@@ -4,23 +4,29 @@ const display = document.getElementById("researchpj");
 
 export default function researchpj() {
     let displayData = researchpjs.map((object) => {
-        let content = object.content;
-        let img = object.imgSrc;
+        const content = object.content;
+        const title = object.title;
+        const img = object.imgSrc;
+        const links = object.links;
+        let linksInTags = links.map((link) => `<a target="_blank" href="${link.link}">[${link.desc}]</a>`).join(" ")
+        if (links.length > 0){
+            linksInTags = `<div><b>Links:</b> ${linksInTags}</div>`
+        }
 
         return `
         <div class="projectItems">
-            <div class="flex my-2">
-                <div class="px-2 pb-1">
-                    <img src=${img} class="custom-img"></img>
+            <div class="md:flex flex-row items-center justify-left my-4 py-2">
+                <div class="mr-2 flex-shrink-0">
+                    <img class="rounded-sm w-40 h-30 object-fill" src="${img}" />
                 </div>
-                <div>
-                    <p class="text-md">${content}</p>
+                <div class="text-md">
+                    <span><b>${title}</b> ${content}</span>
+                    ${linksInTags}
                 </div>
             </div>
-            <hr>
         </div>
         `;
-    }).join("");
+    }).join("<hr>");
 
     display.innerHTML = displayData;
 }

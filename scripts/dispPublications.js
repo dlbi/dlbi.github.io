@@ -28,7 +28,7 @@ function DisplayPublications(num) {
             </div>
         </a>
         `;
-    }).join("");
+    }).join("<hr/>");
 
     display.innerHTML = displayData;
 }
