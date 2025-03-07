@@ -65,9 +65,18 @@ hr {
     transition-duration: 0.25s;
 }
 
+#home {
+    background-color: #1d232a;
+    color: white;
+}
+#news {
+    background-color: #1d232a;
+    color: #ccc;
+}
+
 .newsItems:hover {
     background-color: #2e333c;
-    /* color: black; */
+    
     transform: scale(1.05);
     border-radius: 5px;
     transition-duration: 0.25s;
@@ -89,9 +98,29 @@ hr {
     /* transition-duration: 0.25s; */
 }
 
+#about-us {
+    background-color: #eee;
+    color: black;
+}
+
+#objectives {
+    background-color: #eee;
+    color: black;
+}
+
 #supervisior {
     background-color: #eee;
     color: black;
+}
+
+#current-member {
+    background-color: #1d232a;
+    color: #ccc
+}
+
+#alumni-member{
+    background-color: #1d232a;
+    color: #ccc
 }
 
 .custom-img {
@@ -146,10 +175,12 @@ hr {
 }
 
 .content {
-    padding-top: 80px; /* Extra padding to prevent overlap */
+    padding-top: 75px; /* Extra padding to prevent overlap */
 }
 
 #footer {
+    background-color: #1d232a;
+    color: #ccc;
     position: static;
     bottom: 0;
     left: 0;
