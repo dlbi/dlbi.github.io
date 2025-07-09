@@ -46,7 +46,7 @@ export default function displaycurrentmembers() {
         return `
         <div class="p-4 items-center justify-center">
             <div class="pb-4">
-                <img class="rounded" src="${image}"/>
+                <img class="rounded h-auto w-full" src="${image}"/>
             </div> 
             <div>${name}</div>
             <div>${role}</div>

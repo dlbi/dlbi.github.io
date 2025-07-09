@@ -46,8 +46,8 @@ export default function displayalumni() {
 
         return `
         <div class="p-4 items-center justify-center">
-            <div>
-                <img class="rounded" src="${image}"/>
+            <div class="pb-4">
+                <img class="rounded h-auto w-full" src="${image}"/>
             </div> 
             <div>${name}</div>
             <div>${graduation}</div>

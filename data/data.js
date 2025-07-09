@@ -67,6 +67,7 @@ export const alumni = [
             homepage: "https://danaidech.dev/",
             linkedin: "https://www.linkedin.com/in/danaidech-ardsamai-35965b1b8/"
         },
+        image: "img/pfp/danaidech_pfp.png",
     }
 ]
 
