@@ -91,8 +91,14 @@ hr {
     background-color: #ccc;
     /* color: black; */
     border-radius: 5px;
-    width: 80%;
+    width: 100%;
     text-align: center;
+}
+
+.image-object-fit {
+    width: 200px; 
+    height: 150px; 
+    object-fit: contain;
 }
 
 .showMoreButton:hover {

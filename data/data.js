@@ -83,6 +83,14 @@ export const awards = [
 
 export const publications = [
     {
+        title: "Normal Pressure Hydrocephalus Classification using Weakly-Supervised Local Feature Extraction",
+        authors: "Akara Supratak, Siripra Kingchan, Phuriwat Angkoondittaphong, Poonsuta Nava-apisak, Jitsupa Wongsripuemtet, Thanapon Noraset, Worapan Kusakunniran, Peter Haddawy, Dittapong Songsaeng",
+        publisher: "Computers in Biology and Medicine",
+        year: "2025",
+        img: "./img/publications/2025_nph.png",
+        link: "https://doi.org/10.1016/j.compbiomed.2025.110751",
+    },
+    {
         title: "Leveraging Movement Representation from Contrastive Learning for Asteroid Detection",
         authors: "Noppachanin Kongsathitporn, Akara Supratak, Kanthanakorn Noysena, Supachai Awiphan, Danny Steeghs, Don Pollacco, Krzysztof Ulaczyk, Joseph Lyman, Kendall Ackley, David O'Neill, Amit Kumar, Duncan K. Galloway, Felipe Jiménez-Ibarra, Vik. S. Dhillon, Martin J. Dyer, Paul O'Brien, Gavin Ramsay, Enric Pallé, Rubin Kotak, Thomas L. Killestein, Laura K. Nuttall, and Rene P. Breton",
         publisher: "Publications of the Astronomical Society of the Pacific",

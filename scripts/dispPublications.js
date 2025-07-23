@@ -6,7 +6,11 @@ const publicationsLength = publications.length
 let displayPubsAmount = 0;
 
 function DisplayPublications(num) {
-    let displayData = publications.slice(0, num).map((object) => {
+    let displayData = publications
+        .sort((a, b) => Number(b.year) - Number(a.year))
+        .slice(0, num)
+        .map((object) => 
+    {
         let title = object.title;
         let authors = object.authors;
         let publisher = object.publisher;
@@ -18,7 +22,7 @@ function DisplayPublications(num) {
         <a href=${link} target="_blank" style="color: inherit;">
             <div class="md:flex flex-row items-center justify-left my-4 py-2 pubItems">
                 <div class = "mr-2 flex-shrink-0">
-                    <img class="rounded-sm w-40 h-30 object-fill" src="${img}"/>
+                    <img class="rounded-sm image-object-fit" src="${img}"/>
                 </div>
                 <div class="flex flex-col items-start">
                     <h1 class="text-lg" style="font-weight: bold;">${title}</h1>
