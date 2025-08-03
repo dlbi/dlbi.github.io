@@ -183,7 +183,7 @@ export const publications = [
         authors: "Hao Dong, Akara Supratak, Luo Mai, Fangde Liu, Axel Oehmichen, Simiao Yu, Yike Guo",
         publisher: "Proceedings of the 25th ACM international conference on Multimedia (Best Open Source Software Award)",
         year: "2017",
-        img: "https://github.com/tensorlayer/TensorLayer/raw/master/img/tl_transparent_logo.png",
+        img: "img/projects/tl_transparent_logo.png",
         link: "https://arxiv.org/pdf/1707.08551"
     },
     {
@@ -199,7 +199,7 @@ export const publications = [
         authors: "Akara Supratak, Hao Dong, Chao Wu, Yike Guo",
         publisher: "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
         year: "2017",
-        img: "https://github.com/akaraspt/deepsleepnet/raw/master/img/sleep_onset_cell.png",
+        img: "img/publications/sleep_onset_cell.png",
         link: "http://ieeexplore.ieee.org/document/7961240/"
     },
 ]
@@ -310,35 +310,43 @@ export const news = [
 
 export const collaborations = [
     {
-        name: "Faculty of Medicine, Siriraj Hospital, Mahidol University",
-        imgSrc: "img/collabs/siriraj_hospital.jpg",
-        link: "https://www.si.mahidol.ac.th/"
-    },
-    {
-        name: " Bremen Spatial Cognition Center, University of Bremen",
-        imgSrc: "img/collabs/bscc.png",
-        link: "https://bscc.spatial-cognition.de/"
-    },
-    {
         name: "Mahidol-Bremen Medical Informatics Research Unit",
         imgSrc: "img/collabs/miru.png",
         link: "https://miru.ict.mahidol.ac.th/",
-
-    },
-    {
-        name: "Department of Animal Science, Faculty of Agriculture, Kasetsart University",
-        imgSrc: "img/collabs/faculty_agricuture_ku.png",
-        link: "https://agr.ku.ac.th/"
     },
     {
         name: "Faculty of Medicine, Ramathibodi Hospital, Mahidol University",
         imgSrc: "img/collabs/rama_hospital.png",
-        link: "https://www.rama.mahidol.ac.th/"
+        link: "https://www.rama.mahidol.ac.th/en/"
     },
-    // {
-    // kku hospital
-    // },
-    // {
-    // dental mahidol
-    // },
+    {
+        name: "Faculty of Tropical Medicine, Mahidol University",
+        imgSrc: "img/collabs/tropical_med_mu.png",
+        link: "https://www.tm.mahidol.ac.th/en/"
+    },
+    {
+        name: "Faculty of Medicine, Siriraj Hospital, Mahidol University",
+        imgSrc: "img/collabs/siriraj_hospital.jpg",
+        link: "https://www2.si.mahidol.ac.th/en/"
+    },
+    {
+        name: "Bremen Spatial Cognition Center, University of Bremen",
+        imgSrc: "img/collabs/bscc.png",
+        link: "https://bscc.spatial-cognition.de/"
+    },
+    {
+        name: "Department of Animal Science, Faculty of Agriculture, Kasetsart University",
+        imgSrc: "img/collabs/faculty_agricuture_ku.png",
+        link: "https://agr.ku.ac.th/en/home-en/"
+    },
+    {
+        name: "Khon Kaen University",
+        imgSrc: "img/collabs/kku.png",
+        link: "https://www.kku.ac.th/en/"
+    },
+    {
+        name: "National Astronomical Research Institute of Thailand",
+        imgSrc: "img/collabs/narit.webp",
+        link: "https://www.narit.or.th/en"
+    }
 ]
