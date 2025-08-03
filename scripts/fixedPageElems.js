@@ -6,7 +6,7 @@ function displayNavbar(){
             <div class="nav-links">
                 <a href="/">Home</a>
                 <a href="/about.html">About</a>
-                <a href="/ongoing-research.html">Ongoing Research Projects</a>
+                <a href="/publications.html">Publications</a>
                 <a href="/members.html">Members</a>
             </div>
         </div>

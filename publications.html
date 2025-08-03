@@ -13,23 +13,32 @@
 <body>
   <nav id="nav"></nav>
   <div class="content">
-    <section id="project" class="flex flex-col w-screen items-center justify-center pb-8 py-4">
-      <div class="w-4/5 my-4">
-        <h2 class="text-2xl">Research Projects</h2>
+    
+    <section id="publications" class="py-4">
+      <div class="grid grid-cols-5">
+        <div class="col-span-3 col-start-2">
+          <h2 class="text-2xl pb-4">Selected Publications</h2>
+        </div>
       </div>
-      <div class="flex w-screen items-center justify-center">
-        <div id="researchpj" class="w-3/4"></div>
+      <div class="grid grid-cols-5">
+        <div class="col-span-3 col-start-2">
+          <div id="displaypublications"></div>
+        </div>
+      </div>
+      <div class="grid grid-cols-5">
+        <div class="col-span-3 col-start-2">
+          <div id="morePubButton" class="showMoreButton"><button>Show More</button></div>
+        </div>
       </div>
     </section>
-
   </div>
   <footer id="footer"></footer>
 
   <script type="module" src="./component/header-component.js"></script>
   <script src="./scripts/fixedPageElems.js"></script>
   <script type="module">
-    import displayResearchProj from "./scripts/dispResProj.js"
-    displayResearchProj();
+    import {InitPubs} from "./scripts/dispPublications.js";
+    InitPubs();
   </script>
 
 </body>
