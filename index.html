@@ -55,6 +55,20 @@
       </div>
     </section>
 
+    <section id="collabs" class="py-4">
+      <div class="grid grid-cols-5">
+        <div class="col-span-3 col-start-2">
+          <h2 class="text-2xl">Collabolations</h2>
+        </div>
+      </div>
+      <div class="grid grid-cols-5">
+        <div class="col-span-3 col-start-2">
+          <div id="displaycollabs" class="grid grid-cols-5"></div>
+        </div>
+      </div>
+    </section>
+
+
   </div>
   <footer id="footer"></footer>
   <script type="module" src="./component/header-component.js"></script>
@@ -62,9 +76,11 @@
   <script type="module">
     import {InitNews} from "./scripts/dispNews.js";
     import {InitPubs} from "./scripts/dispPublications.js";
+    import {InitCollabs} from "./scripts/dispCollabs.js";
     
     InitNews();
     InitPubs();
+    InitCollabs();
   </script>
 </body>
 

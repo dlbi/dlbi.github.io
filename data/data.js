@@ -307,3 +307,38 @@ export const news = [
         date: "19 August 2024"
     }
 ]
+
+export const collaborations = [
+    {
+        name: "Faculty of Medicine, Siriraj Hospital, Mahidol University",
+        imgSrc: "img/collabs/siriraj_hospital.jpg",
+        link: "https://www.si.mahidol.ac.th/"
+    },
+    {
+        name: " Bremen Spatial Cognition Center, University of Bremen",
+        imgSrc: "img/collabs/bscc.png",
+        link: "https://bscc.spatial-cognition.de/"
+    },
+    {
+        name: "Mahidol-Bremen Medical Informatics Research Unit",
+        imgSrc: "img/collabs/miru.png",
+        link: "https://miru.ict.mahidol.ac.th/",
+
+    },
+    {
+        name: "Department of Animal Science, Faculty of Agriculture, Kasetsart University",
+        imgSrc: "img/collabs/faculty_agricuture_ku.png",
+        link: "https://agr.ku.ac.th/"
+    },
+    {
+        name: "Faculty of Medicine, Ramathibodi Hospital, Mahidol University",
+        imgSrc: "img/collabs/rama_hospital.png",
+        link: "https://www.rama.mahidol.ac.th/"
+    },
+    // {
+    // kku hospital
+    // },
+    // {
+    // dental mahidol
+    // },
+]

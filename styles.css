@@ -134,6 +134,15 @@ hr {
     color: #ccc
 }
 
+#collabs{
+    background-color: #eee;
+    color: black;
+}
+
+.collab-img{
+    object-fit: contain;
+}
+
 .custom-img {
     min-width: 64px;
     /* Adjust the value as needed */
