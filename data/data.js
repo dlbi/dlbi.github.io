@@ -348,5 +348,5 @@ export const collaborations = [
         name: "National Astronomical Research Institute of Thailand",
         imgSrc: "img/collabs/narit.webp",
         link: "https://www.narit.or.th/en"
-    }
+    },
 ]
